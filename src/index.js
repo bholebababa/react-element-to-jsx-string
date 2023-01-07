@@ -46,3 +46,5 @@ export {
   inlineFunction,
   preserveFunctionLineBreak,
 } from './formatter/formatFunction';
+
+export { parseReactElement };

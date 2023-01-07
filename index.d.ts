@@ -20,5 +20,9 @@ declare module 'react-element-to-jsx-string' {
 
   export { ReactElementToJSXStringOptions as Options };
 
+  const parseReactElement: (element: ReactNode) => any;
+
+  export { parseReactElement }
+
   export default reactElementToJSXString;
 }
